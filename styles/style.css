@@ -266,6 +266,7 @@ button:focus-visible {
 }
 .content__card-link:focus-visible {
   border: 1px solid #FFF;
+  color: inherit;
 }
 
 
