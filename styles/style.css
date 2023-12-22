@@ -19,6 +19,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding-left: 30px;
 }
 
 h1,
@@ -57,7 +58,7 @@ ol {
   position: relative;
   max-height: 298px;
   overflow: auto;
-  overflow-x:hidden;
+  overflow-x: auto;
 }
 
 .content__details {
@@ -104,7 +105,7 @@ ol {
 
 .content__video-card-thumbnail {
   object-position: center;
-  object-fit: center;
+  object-fit: cover;
   width: 194px;
   height: 103px;
 }
@@ -173,6 +174,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5px;
   gap: 5px;
   width: fit-content;
   cursor: pointer;
@@ -183,6 +185,7 @@ ol {
 }
 
 .search-form__textfield {
+  color: rgba(255, 255, 255, 0.70);
   font-family: inherit; 
   color: inherit;
   font-size: inherit;
@@ -248,12 +251,12 @@ ol {
 }
 
 .search-form__submit-button {
-  margin-top: 14px;
+  margin-top: 19px;
   inline-size: 194px;
 }
 
 .more-button {
-  inline-size: 100%;
+  inline-size: 399px;
 }
 
 button:hover {
